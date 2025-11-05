@@ -826,7 +826,7 @@ let hash = EdfaPgHashUtil.hashApplePayVirtual(
 )
 ```
 
-**Formula**: `md5(strtoupper(strrev(identifier).client_password.number.amount.currency))`
+**Formula**: `md5(strtoupper(strrev(identifier.number.amount.currency.client_password)))`
 
 #### Payment Token Structure
 
